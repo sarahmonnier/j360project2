@@ -1,82 +1,55 @@
-.container {
-    margin: 10px 4%;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(255, 240, 179, 0.7);
+    height: 100%;
+    position: fixed;
+    overflow: auto;
 }
-.row {
-    width: 100%;
-    margin-bottom: 20px;
+
+li a {
     display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
 }
-.container::after, .row::after {
-    clear: both;
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.column1of2 {
+	float: left;
+	width: 200px;
+	margin: 10px;
+}
+.column2of2 {
+	float: left;
+	width: 620px;
+	margin: 10px;
+}
+
+body {
+	background-image: url("pineapple-isolated.jpg"); 
+}
+.background-image {
+	z-index: 5;
+	opacity: 0.5;
+}
+
+section {
+	background-color: rgba(255, 240, 179, 0.65);
+	
+}
+section::after {
+	 clear: both;
     display: table;
     content: "";
-}
-.col {
-    float: left;
-    display: block;
-}
-.col:last-child {
-    margin: 0;
-}
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
-.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-    width: 100%;
-    float: left;
-    display: block;
-}
-.col img {
-    width: 100%;
-}
-
-@media (min-width: 768px) {
-    body {
-        color: #6c42d6;
-    }
-    .container {
-        width: 750px;
-        margin: 15px auto;
-    }
-    .col-2 {
-        margin-right: 2.35765%;
-        width: 14.70196%;
-    }
-    .col-3 {
-        margin-right: 2.35765%;
-        width: 23.23176%;
-    }
-    .col-4 {
-        margin-right: 2.35765%;
-        width: 31.76157%;
-    }
-    .col-6 {
-        margin-right: 2.35765%;
-        width: 48.82117%;
-    }
-}
-
-@media (min-width: 992px) {
-    body {
-        color: #42d6d6;
-    }
-    h1 {
-        font-size: 3em;
-    }
-    .container {
-        width: 960px;
-        margin: 20px auto 5px;
-    }
-}
-
-@media (min-width: 1200px) {
-    body {
-        color: #d642a4;
-    }
-    .container {
-        width: 1000px;
-        margin: 40px auto 10px;
-    }
-    h1 {
-        font-size: 3.75em;
-        font-weight: 200;
-    }
-}
+} 
