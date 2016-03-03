@@ -37,20 +37,41 @@ li a:hover {
 	margin: 10px;
 }
 
-body {
-	background-image: url("pineapple-isolated.jpg"); 
-}
-.background-image {
-	z-index: 5;
-	opacity: 0.5;
+
+img {
+	width: 100%;
 }
 
-section {
-	background-color: rgba(255, 240, 179, 0.55);
-	
+@media (min-width: 768px) {
+    body {
+        color: #6c42d6;
+        background-image: url("pineapple-beach360.jpg");
+        background-size: cover;
 }
-section::after {
-	 clear: both;
-    display: table;
-    content: "";
-} 
+  header {
+  		font-size: 200%; }
+    
+}
+
+@media (min-width: 992px) {
+    body {
+        color: #42d6d6;
+        background-image: url("pineapple-beach768.jpg");
+		background-size: cover; 
+}
+    header {
+    	font-size: 400%;
+}
+   
+}
+
+@media (min-width: 1200px) {
+    body {
+        color: #d642a4;
+        background-image: url("pineapple-beach1024.jpg");
+		background-size: cover; 
+}
+    header {
+    	font-size: 600%;
+}
+}
