@@ -4,7 +4,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: rgba(51, 41, 0, .9);
+    background-color: #003333;
     height: 100%;
     position: fixed;
     overflow: auto;
@@ -19,11 +19,11 @@ li a {
 }
 li a:hover {
     background-color: rgb(255, 240, 179);
-    color: rgba(51, 41, 0, .9);
+    color: #003333;
 }
 .active {
      background-color: rgb(255, 240, 179);
-    color: rgba(51, 41, 0, .9);
+    color: #003333;
 }
 
 .column1of2 {
@@ -44,34 +44,40 @@ img {
 
 @media (min-width: 768px) {
     body {
-        color: #6c42d6;
+        color: #000000;
         background-image: url("pineapple-beach360.jpg");
         background-size: cover;
 }
   header {
-  		font-size: 200%; }
+  		font-size: 200%; 
+  		text-align: center;
+  		color: #003333;
     
 }
 
 @media (min-width: 992px) {
     body {
-        color: #42d6d6;
+        color: #000000;
         background-image: url("pineapple-beach768.jpg");
 		background-size: cover; 
 }
     header {
     	font-size: 400%;
+    	text-align: center;
+    	color: #003333;
 }
    
 }
 
 @media (min-width: 1200px) {
     body {
-        color: #d642a4;
+        color: #000000;
         background-image: url("pineapple-beach1024.jpg");
 		background-size: cover; 
 }
     header {
     	font-size: 600%;
+    	text-align: center;
+    	color: #003333;
 }
 }
