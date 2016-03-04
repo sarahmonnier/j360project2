@@ -48,11 +48,18 @@ li a:hover {
         background-repeat: no-repeat;
 }
   header {
-  		font-size: 200%; 
+  		font-size: 400%; 
   		font-family: 'Pacifico', serif;
   		text-align: center;
   		color: #003333;
     
+}
+
+h1 {
+		font-size: 200%; 
+  		font-family: 'Pacifico', serif;
+  		text-align: left;
+  		color: #003333;
 }
 
 @media (min-width: 992px) {
@@ -63,12 +70,17 @@ li a:hover {
 		background-repeat: no-repeat; 
 }
     header {
-    	font-size: 400%;
+    	font-size: 500%;
     	font-family: 'Pacifico', serif;
     	text-align: center;
     	color: #003333;
 }
-   
+ h1 {
+		font-size: 250%; 
+  		font-family: 'Pacifico', serif;
+  		text-align: left;
+  		color: #003333;
+}  
 }
 
 @media (min-width: 1200px) {
@@ -83,5 +95,11 @@ li a:hover {
     	font-family: 'Pacifico', serif;
     	text-align: center;
     	color: #003333;
+}
+h1 {
+		font-size: 300%; 
+  		font-family: 'Pacifico', serif;
+  		text-align: left;
+  		color: #003333;
 }
 }
