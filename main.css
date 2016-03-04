@@ -3,7 +3,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 150px;
     background-color: #003333;
     height: 100%;
     position: fixed;
@@ -15,6 +15,7 @@ li a {
     color: rgb(255, 240, 179);
     padding: 8px 0 8px 16px;
     text-decoration: none;
+    font-family: 'Pacifico', serif;
     
 }
 li a:hover {
@@ -38,18 +39,17 @@ li a:hover {
 }
 
 
-img {
-	width: 100%;
-}
 
 @media (min-width: 768px) {
     body {
         color: #000000;
         background-image: url("pineapple-beach360.jpg");
         background-size: cover;
+        background-repeat: no-repeat;
 }
   header {
   		font-size: 200%; 
+  		font-family: 'Pacifico', serif;
   		text-align: center;
   		color: #003333;
     
@@ -59,10 +59,12 @@ img {
     body {
         color: #000000;
         background-image: url("pineapple-beach768.jpg");
-		background-size: cover; 
+		background-size: cover;
+		background-repeat: no-repeat; 
 }
     header {
     	font-size: 400%;
+    	font-family: 'Pacifico', serif;
     	text-align: center;
     	color: #003333;
 }
@@ -74,9 +76,11 @@ img {
         color: #000000;
         background-image: url("pineapple-beach1024.jpg");
 		background-size: cover; 
+		background-repeat: no-repeat;
 }
     header {
     	font-size: 600%;
+    	font-family: 'Pacifico', serif;
     	text-align: center;
     	color: #003333;
 }
