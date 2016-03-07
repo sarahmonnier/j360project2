@@ -42,6 +42,7 @@ li a:hover {
 
 @media (min-width: 768px) {
     body {
+    	font-family: Georgia, serif;
         color: #000000;
         background-image: url("pineapple-beach360.jpg");
         background-size: cover;
@@ -64,6 +65,7 @@ h1 {
 
 @media (min-width: 992px) {
     body {
+    	font-family: Georgia, serif;
         color: #000000;
         background-image: url("pineapple-beach768.jpg");
 		background-size: cover;
@@ -85,6 +87,7 @@ h1 {
 
 @media (min-width: 1200px) {
     body {
+    	font-family: Georgia, serif;
         color: #000000;
         background-image: url("pineapple-beach1024.jpg");
 		background-size: cover; 
