@@ -82,6 +82,7 @@ h1 {
         width: 750px;
         margin: 10px;
     }
+}
 
 @media (min-width: 992px) {
 
@@ -105,7 +106,7 @@ h1 {
 
 @media (min-width: 1200px) {
  
-    header {
+header {
     	font-size: 600%;
     	font-family: 'Pacifico', serif;
     	text-align: center;
@@ -117,7 +118,7 @@ h1 {
   		text-align: left;
   		color: #003333;
 }
-  .container {
+.container {
         width: 1000px;
         margin: 10px;
 }
