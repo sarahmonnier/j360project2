@@ -78,6 +78,12 @@ h1 {
   		text-align: left;
   		color: #003333;
 }
+h2 {
+		font-size: 100%; 
+  		font-family: 'Pacifico', serif;
+  		text-align: left;
+  		color: #003333;
+}
 .container {
         width: 750px;
         margin: 10px;
@@ -98,6 +104,12 @@ h1 {
   		text-align: left;
   		color: #003333;
 }  
+ h2 {
+		font-size: 150%; 
+  		font-family: 'Pacifico', serif;
+  		text-align: left;
+  		color: #003333;
+}  
 .container {
         width: 960px;
         margin: 10px;
@@ -114,6 +126,12 @@ header {
 }
 h1 {
 		font-size: 300%; 
+  		font-family: 'Pacifico', serif;
+  		text-align: left;
+  		color: #003333;
+}
+h2 {
+		font-size: 200%; 
   		font-family: 'Pacifico', serif;
   		text-align: left;
   		color: #003333;
