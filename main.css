@@ -1,3 +1,96 @@
+
+
+
+.container {
+    margin: 10px 4%;
+}
+.container::after, .row::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+.col {
+    float: left;
+    display: block;
+}
+
+.col:last-child {
+    margin: 0;
+}
+body {
+    	font-family: Georgia, serif;
+        color: #000000;
+        background-image: url("pineapple-beach1280.jpg");
+		background-size: cover; 
+		background-repeat: no-repeat;
+}
+header {
+	margin: 5px;
+	padding: 20px;
+}
+@media (max-width: 768px) {
+	
+.col-2 {width: 100%;}
+.col-4 {width: 100%;}
+
+
+[class*="col-"] {
+    float: left;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #003333;
+    position: absolute;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 240, 179);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Pacifico', serif;
+}
+
+li a:hover {
+     background-color: rgb(255, 240, 179);
+    color: #003333;
+}
+.active {
+     background-color: rgb(255, 240, 179);
+    color: #003333;
+}
+  header {
+  		font-size: 300%; 
+  		font-family: 'Pacifico', serif;
+  		text-align: center;
+  		color: #003333;
+    
+}
+
+h1 {
+		font-size: 150%; 
+  		font-family: 'Pacifico', serif;
+  		text-align: left;
+  		color: #003333;
+}
+h2 {
+		font-size: 75%; 
+  		font-family: 'Pacifico', serif;
+  		text-align: left;
+  		color: #003333;
+}
+}
+@media (min-width: 768px) {
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -43,47 +136,6 @@ li a:hover {
      background-color: rgb(255, 240, 179);
     color: #003333;
 }
-
-
-.container {
-    margin: 10px 4%;
-}
-.container::after, .row::after {
-    clear: both;
-    display: table;
-    content: "";
-}
-.col {
-    float: left;
-    display: block;
-}
-
-.col:last-child {
-    margin: 0;
-}
-body {
-    	font-family: Georgia, serif;
-        color: #000000;
-        background-image: url("pineapple-beach1280.jpg");
-		background-size: cover; 
-		background-repeat: no-repeat;
-}
-@media (max-width: 768px) {
-	.column1of2 {
-	float: left;
-	clear: left;
-	width: 100%px;
-	margin: 10px;
-}
-.column2of2 {
-	float: left;
-	clear: left;
-	width: 100%;
-	margin: 10px;
-}
-}
-@media (min-width: 768px) {
-  
   header {
   		font-size: 400%; 
   		font-family: 'Pacifico', serif;
@@ -108,23 +160,30 @@ h2 {
         width: 750px;
         margin: 10px;
     }
-    .column1of2 {
-	float: left;
-	width: 150px;
-	margin: 10px;
-}
-.column2of2 {
-	float: left;
-	width: 620px;
-	margin: 10px;
-}
 
 
 }
 
 @media (min-width: 992px) {
 
-    header {
+   .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    margin: 10px;
+}
+ header {
     	font-size: 500%;
     	font-family: 'Pacifico', serif;
     	text-align: center;
@@ -147,20 +206,28 @@ h2 {
         margin: 10px;
 }	
 
-.column1of2 {
-	float: left;
-	width: 150px;
-	margin: 10px;
-}
-.column2of2 {
-	float: left;
-	width: 620px;
-	margin: 10px;
-}
+
 }
 
 @media (min-width: 1200px) {
  
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    margin: 10px;
+}
 header {
     	font-size: 600%;
     	font-family: 'Pacifico', serif;
@@ -184,15 +251,6 @@ h2 {
         margin: 10px;
 }
 
-.column1of2 {
-	float: left;
-	width: 150px;
-	margin: 10px;
-}
-.column2of2 {
-	float: left;
-	width: 620px;
-	margin: 10px;
-}
+
 
 }
