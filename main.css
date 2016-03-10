@@ -1,4 +1,6 @@
-
+.quote {
+	text-align: center;
+}
 .container {
     margin: 10px 4%;
 }
