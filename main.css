@@ -46,6 +46,7 @@ ul {
     overflow: hidden;
     background-color: #003333;
     position: absolute;
+    width:100%;
 }
 
 li {
